@@ -56,3 +56,10 @@ img{
     color: blue;
     
     }
+
+.header{
+    text-align: center;
+    width: 101%;
+    height: 50px;
+    bottom: 0;
+}
