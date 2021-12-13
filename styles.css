@@ -1,102 +1,58 @@
-.table {
-    width: 400px;
-    height: 300px;
+/* Add your styles here */
+img{
 
-    /* Part of your solution goes here */
-
-    /* added linear-gradient style rule to background property*/
-    /* Linear Gradient here goes from forestgreen color to darkgreen color */
-    /* The default direction of linear-gradient is from Top to Bottom */
-    background: linear-gradient(forestgreen, darkgreen);
-  }
-
-  .cardRed {
-    color: red;
-  }
-
-  .cardBlack {
-    color: black;
-  }
-
-  .card {
-    background-color: whitesmoke;
-    border: 1px solid black;
-    width: 100px;
-    height: 160px;
-    line-height: 160px;
-    text-align: center;
-    font-size: 80px;
-
-    /* Part of your solution goes here */
-
-    /* border-radius property */
-    border-radius: 5px;
-    /* black box shadow property with x and y offsets as 3px*/
-    box-shadow: 3px 3px black;
-  }
-
-  .cardTop {
-    /* Part of your solution goes here */
-
-    /* Absolute position property */
-    position: absolute;
-    /* 150px from left */
-    left: 150px;
-    /* 100px from top */
-    top: 100px;
-    /* z-index property */
-    /* z-index of "1" will make the top card appear on Top */
-    z-index: 1;
-  }
-
-  .cardBottom {
-    /* Part of your solution goes here */
-
-    /* Absolute position property */
-    position: absolute;
-    /* 240px from left */
-    left: 240px;
-    /* 120px from top */
-    top: 120px;
-    /* z-index property */
-    /* z-index of "0" will make the bottom card appear on bottom */
-    z-index: 0;
-  }
-
-  .heart {
-    color: red;
-    font-size: 28px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  }
-
-  .spade {
-    color: black;
-    font-size: 36px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  }
-
-  .topLeft {
-    /* Part of your solution goes here */
-
-    /* Absolute position property */
-    position: absolute;
-    /* 2px from left */
-    left: 2px;
-    /* 2px from top */
-    top: 2px;
-  }
-
-  .bottomRight {
-    /* Part of your solution goes here */
-
-    /* Absolute position property */
-    position: absolute;
-    /* 2px from right */
-    right: 2px;
-    /* 2px from bottom */
-    bottom: 2px;
-  }
+    width:300px;
+    
+    }
+    
+    /* style rule for h1 */
+    
+    h1{
+    
+    padding: 5px;
+    
+    font-family: Arial;
+    
+    font-size: 24px;
+    
+    color: white;
+    
+    background-color: red;
+    
+    }
+    
+    /* style rule for id="author-name-and-date" */
+    
+    #author-name-and-date{
+    
+    font-family: Arial;
+    
+    font-size: 12px;
+    
+    color: lightgray;
+    
+    }
+    
+    /* style rule for p and ol */
+    
+    p,ol{
+    
+    font-family: 'Times New Roman';
+    
+    font-size: 16px;
+    
+    color: gray;
+    
+    }
+    
+    /* style for hyperlink */
+    
+    a{
+    
+    font-family: Arial;
+    
+    font-size: 12px;
+    
+    color: blue;
+    
+    }
